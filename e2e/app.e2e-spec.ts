@@ -11,4 +11,9 @@ describe('angular-sandbox App', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toEqual('Welcome to app!!');
   });
+
+  it('should display Shaun O\'Connor', () => {
+    page.navigateTo();
+    expect(page.getH3Text()).toEqual('Shaun O\'Connor');
+  });
 });

@@ -8,4 +8,7 @@ export class AngularSandboxPage {
   getParagraphText() {
     return element(by.css('app-root h1')).getText();
   }
+  getH3Text() {
+    return element(by.css('app-root h3')).getText();
+  }
 }
