@@ -1,6 +1,13 @@
-# AngularSandbox
+# Angular Sandbox
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.2.
+
+## Installation
+
+Run `npm install` to get going.
+
+You may need to install the CLI globally:
+`npm install -g @angular/cli`
 
 ## Development server
 
